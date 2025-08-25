@@ -1,0 +1,62 @@
+.profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #fce4ec; /* Un rosa muy suave */
+}
+
+.profile-card {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 500px;
+  width: 90%;
+}
+
+.profile-card h2 {
+  margin-bottom: 25px;
+  color: #880e4f; /* Un rojo oscuro para el título */
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+.profile-card p {
+  font-size: 1.2em;
+  color: #4a148c; /* Morado oscuro */
+  margin-bottom: 15px;
+}
+
+.profile-card p span {
+  font-weight: bold;
+  color: #ad1457; /* Rojo vino */
+}
+
+.profile-card .profile-bio {
+  font-size: 1em;
+  color: #6a1b9a; /* Morado medio */
+  line-height: 1.6;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.back-button {
+  background-color: #ba68c8; /* Morado claro */
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 1.1em;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  display: inline-block; /* Para que Link se comporte como botón */
+}
+
+.back-button:hover {
+  background-color: #9c27b0; /* Morado más oscuro al pasar el ratón */
+  transform: translateY(-2px);
+}

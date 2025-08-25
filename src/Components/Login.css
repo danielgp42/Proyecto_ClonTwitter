@@ -1,0 +1,56 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #e0f7fa; /* Un azul claro suave */
+}
+
+.login-form {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 400px;
+  width: 90%;
+}
+
+.login-form h2 {
+  margin-bottom: 30px;
+  color: #263238; /* Un gris oscuro */
+  font-size: 2.2em;
+}
+
+.login-form input[type="text"] {
+  width: calc(100% - 20px);
+  padding: 12px 10px;
+  margin-bottom: 20px;
+  border: 1px solid #cfd8dc;
+  border-radius: 6px;
+  font-size: 1.1em;
+  transition: border-color 0.3s ease;
+}
+
+.login-form input[type="text"]:focus {
+  border-color: #03a9f4; /* Azul brillante al enfocar */
+  outline: none;
+}
+
+.login-form button {
+  background-color: #03a9f4; /* Azul primario */
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1.1em;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  width: 100%;
+}
+
+.login-form button:hover {
+  background-color: #0288d1; /* Un azul más oscuro al pasar el ratón */
+  transform: translateY(-2px);
+}
